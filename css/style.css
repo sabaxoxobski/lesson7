@@ -1,0 +1,92 @@
+
+.header{
+	background-color: black;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+}
+.logo{
+	width: 100px;
+	margin-left: 70px;	
+}
+.header-wrapper{
+	display: flex;
+	align-items: center;
+	width: 100%
+	margin: 0 auto;
+}
+.nav-ul{
+	
+	margin-left: 220px;
+	display: flex;
+	width: 600px;
+	justify-content: space-between;
+	align-items: center;
+}
+.searchicon{
+	margin-left: 70px;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+
+}
+.carticon{
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+/*	margin: 0 auto;*/
+}
+/*.div1{
+	height: 800px;
+	width: 100%;
+	background-color: red;
+}
+.div2{
+	height: 800px;
+	width: 100%;
+	background-color: blue;
+}*/
+.li :hover	{
+	color:white;
+}
+.topnav {
+/*  float: left;*/
+  display: flex
+  color: black;
+  border-radius: 10px;
+/*  text-align: center;*/
+/*  padding: 14px 16px;*/
+/*  font-size: 17px;*/
+}
+.input {
+	width: 	100px;
+	display: flex;
+	 border-radius: 5px;
+
+}
+/*section1*/
+.divsection1 {
+	background-image: url('https://img.freepik.com/free-photo/ice-black-coffee-glass-wooden-table_1150-13459.jpg?w=996&t=st=1673561896~exp=1673562496~hmac=3e4a862bd05742e193befd417db350d757ee8e832b2564250810c09571034ad9');
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-position:bottom right;
+}
+.h2-1{
+	color: white;
+	width: 700px;
+	padding-left: 50px;
+	padding-top: 200px;
+	font-size: 70px;
+}
+.h4-1{
+	color: white;
+	width: 700px;
+	padding-left: 50px;
+	padding-top: 40px;
+	font-size: 30px;
+}
